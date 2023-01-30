@@ -1,0 +1,50 @@
+{"cmd":0}  //播放视频
+{"cmd":1}  //暂停视频
+{"cmd":2}  //恢复视频
+{"cmd":3}  //停止视频
+{"cmd":4,"value":50}  //改变音量(value:0-100)
+{"cmd":5,"value":100}  //改变亮度(value:0-100)
+{"cmd":6,"value":90}  //改变播放进度(value:0-100)
+{"cmd":7,"content":"http://7xjmzj.com1.z0.glb.clouddn.com/20171026175005_JObCxCE2.mp4"}  //切换视频播放源(content:视频路径)    网络路径
+{"cmd":7,"content":"/sdcard/liuyunFile/test.avi"}  //切换视频播放源(content:视频路径)   本地路径
+{"cmd":7,"content":"/sdcard/liuyunFile/test.avi"}  //切换视频播放源(content:视频路径)   本地路径
+{"cmd":7,"content":"video80"}  //切换个数
+
+
+{"cmd":8,"value":0}  //0：视频  1：图片  2：网站  3.wps
+
+{"cmd":11,"content":"next"}
+{"cmd":11,"content":"prev"} 
+{"cmd":11,"content":"first"} 
+{"cmd":11,"content":"last"} 
+{"cmd":11,"content":"autostart"} 
+{"cmd":11,"content":"autostop"} 
+{"cmd":11,"content":"image3"}
+
+{"cmd":12,"content":"next"}
+{"cmd":12,"content":"prev"}
+{"cmd":12,"content":"first"}
+{"cmd":12,"content":"last"}
+{"cmd":12,"content":"http://baidu.com"}
+
+{"cmd":13,"content":"next"}
+{"cmd":13,"content":"prev"}
+{"cmd":13,"content":"first"}
+{"cmd":13,"content":"last"}
+{"cmd":13,"content":"介绍.pdf"}
+
+{"cmd":14,"content":"61"}     //发送模拟键盘快捷键   键值查看keys.txt文件
+   /** Key code constant: Tab key. */
+    public static final int KEYCODE_TAB             = 61;
+ 例如要发送TAB键，就输入61 
+ {"cmd":14,"content":"135"}     //F5 wps播放
+ {"cmd":14,"content":"92"}     //pageup   上一页
+ {"cmd":14,"content":"93"}     //pagedown   下一页
+ {"cmd":14,"content":"111"}     //ESC   退出              
+ {"cmd":14,"content":"4096,111"}    //ctrl+esc组合键，4096 表示ctrl按下  ctrl+esc
+
+
+ {"cmd":15,"content":"+"}    //+ 音量加  - 音量减
+ {"cmd":16,"content":"+"}    //+ 视频快进  - 视频快退
+
+ {"cmd":20,"value":2}    <!-- 视频模式  1：视频播放一次   2:视频列表循环  3：循环播放当前视频 -->

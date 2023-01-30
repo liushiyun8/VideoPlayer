@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DTouch>
+
+    <IP></IP>                    <!-- 播放器主机IP地址,留空为自动获取 -->
+    <UDPPORT>9090</UDPPORT>      <!-- UDP端口 -->
+    <TCPPORT></TCPPORT>      <!-- TCP端口 -->
+    <startServer>5</startServer> <!-- 延时启动服务，建议设置5秒，数值过小可能会因为系统尚未获取到IP从而导致软件出错 -->
+
+    <initMode>WPS</initMode>     <!-- 默认模式：VID=视频 IMG=图片  (可通过指令实时修改) WEB=网页 WPS=其他word,pdf文件-->
+    
+    <autoPlay>true</autoPlay>    <!-- 软件启动后视频自动播放 -->
+    <loopMode>3</loopMode>       <!-- 视频模式  1：视频播放一次   2:视频列表循环  3：循环播放当前视频 -->
+    
+    <imgInterval>3000</imgInterval>   <!-- 图片自动播放间隔， 单位：毫秒,仅在图片模式下生效 -->
+    <imgAutoPlay>false</imgAutoPlay>   <!-- true:图片自动播放  false:图片停止在第一张 -->
+
+
+    <video>     <!-- 视频列表 -->
+    	<url>video/Demo0.mp4</url>
+		<url>video/Demo1.mp4</url>
+		<url>video/Demo2.mp4</url>
+		<url>video/Demo3.mp4</url>
+		<url>video/Demo4.mp4</url>
+		<url>video/Demo5.mp4</url>
+		<url>video/Demo6.mp4</url>
+		<url>video/Demo7.mp4</url>
+		<url>video/Demo8.mp4</url>
+		<url>video/Demo9.mp4</url>
+		<url>video/Demo10.mp4</url>
+		<url>video/Demo11.mp4</url>
+		<url>video/Demo12.mp4</url>
+		<url>video/Demo13.mp4</url>
+		<url>video/Demo14.mp4</url>
+		<url>video/Demo15.mp4</url>
+		<url>video/Demo16.mp4</url>
+		<url>video/Demo17.mp4</url>
+		<url>video/Demo18.mp4</url>
+		<url>video/Demo19.mp4</url>
+		<url>video/Demo20.mp4</url>
+		<url>video/Demo21.mp4</url>
+		<url>video/Demo22.mp4</url>
+		<url>video/Demo23.mp4</url>
+		<url>video/Demo24.mp4</url>
+		<url>video/Demo25.mp4</url>
+		<url>video/Demo26.mp4</url>
+		<url>video/Demo27.mp4</url>
+		<url>video/Demo28.mp4</url>
+		<url>video/Demo29.mp4</url>
+		<url>video/Demo30.mp4</url>
+		<url>video/Demo31.mp4</url>
+		<url>video/Demo32.mp4</url>
+		<url>video/Demo33.mp4</url>
+		<url>video/Demo34.mp4</url>
+		<url>video/Demo35.mp4</url>
+		<url>video/Demo36.mp4</url>
+		<url>video/Demo37.mp4</url>
+		<url>video/Demo38.mp4</url>
+		<url>video/Demo39.mp4</url>
+		<url>video/Demo40.mp4</url>
+		<url>video/Demo41.mp4</url>
+		<url>video/Demo42.mp4</url>
+		<url>video/Demo43.mp4</url>
+		<url>video/Demo44.mp4</url>
+		<url>video/Demo45.mp4</url>
+		<url>video/Demo46.mp4</url>
+		<url>video/Demo47.mp4</url>
+		<url>video/Demo48.mp4</url>
+		<url>video/Demo49.mp4</url>
+		<url>video/Demo50.mp4</url>
+		<url>video/Demo51.mp4</url>
+		<url>video/Demo52.mp4</url>
+		<url>video/Demo53.mp4</url>
+		<url>video/Demo54.mp4</url>
+		<url>video/Demo55.mp4</url>
+		<url>video/Demo56.mp4</url>
+		<url>video/Demo57.mp4</url>
+		<url>video/Demo58.mp4</url>
+		<url>video/Demo59.mp4</url>
+		<url>video/Demo60.mp4</url>
+		<url>video/Demo61.mp4</url>
+		<url>video/Demo62.mp4</url>
+		<url>video/Demo63.mp4</url>
+		<url>video/Demo64.mp4</url>
+		<url>video/Demo65.mp4</url>
+		<url>video/Demo66.mp4</url>
+		<url>video/Demo67.mp4</url>
+		<url>video/Demo68.mp4</url>
+		<url>video/Demo69.mp4</url>
+		<url>video/Demo70.mp4</url>
+		<url>video/Demo71.mp4</url>
+		<url>video/Demo72.mp4</url>
+		<url>video/Demo73.mp4</url>
+		<url>video/Demo74.mp4</url>
+		<url>video/Demo75.mp4</url>
+		<url>video/Demo76.mp4</url>
+		<url>video/Demo77.mp4</url>
+		<url>video/Demo78.mp4</url>
+		<url>video/Demo79.mp4</url>
+		<url>video/Demo80.mp4</url>
+		<url>video/Demo81.mp4</url>
+		<url>video/Demo82.mp4</url>
+		<url>video/Demo83.mp4</url>
+		<url>video/Demo84.mp4</url>
+		<url>video/Demo85.mp4</url>
+		<url>video/Demo86.mp4</url>
+		<url>video/Demo87.mp4</url>
+		<url>video/Demo88.mp4</url>
+		<url>video/Demo89.mp4</url>
+		<url>video/Demo90.mp4</url>
+		<url>video/Demo91.mp4</url>
+		<url>video/Demo92.mp4</url>
+		<url>video/Demo93.mp4</url>
+		<url>video/Demo94.mp4</url>
+		<url>video/Demo95.mp4</url>
+		<url>video/Demo96.mp4</url>
+		<url>video/Demo97.mp4</url>
+		<url>video/Demo98.mp4</url>
+		<url>video/Demo99.mp4</url>
+		<url>video/Demo100.mp4</url>
+    </video>
+    
+    <image>     <!-- 图片列表 -->
+       <url>image/0.jpg</url>
+       <url>image/1.jpg</url>
+       <url>image/2.jpg</url>
+       <url>image/3.jpg</url>
+       <url>image/4.jpg</url>
+       <url>image/5.jpg</url>
+    </image>
+
+    <web>     <!-- 网站列表 -->
+       <url>https://baidu.com</url>
+       <url>https://qq.com</url>
+       <url>https://blog.csdn.net/</url>
+    </web>
+
+    <wps>     <!-- wps文件列表 -->
+       <url>wps/0.docx</url>
+       <url>wps/1.xlsx</url>
+       <url>wps/2.pdf</url>
+    </wps>
+ 
+</DTouch>
+
+
+<!-- 分辨率等设置在 SYSConfig/config.xml中修改 -->

@@ -1,0 +1,67 @@
+1. 播放指定视频
+{"mode":"movie","content":"video1.mp4"}            //视频模式，播放默认路径video文件夹下的视频video1.mp4
+{"mode":"movie","content":"人文.mkv"}              //视频模式，播放默认路径video文件夹下的视频：人文.mkv  中文采用unicode编码格式解析。
+{"mode":"movie","content":"C:\Video\video1.mp4"}   //视频模式，播放指定路径的视频文件
+{"mode":"movie","content":"http://7xjmzj.com1.z0.glb.clouddn.com/20171026175005_JObCxCE2.mp4"}   //视频模式，播放指定路径的视频文件
+
+2. 视频控制
+{"mode":"movie","cmd":"play"}      //播放
+{"mode":"movie","cmd":"pause"}     //暂停
+{"mode":"movie","cmd":"stop"}      //停止
+{"mode":"movie","cmd":"replay"}    //重播
+
+{"mode":"movie","cmd":"vol+"}      //音量+5%
+{"mode":"movie","cmd":"vol-"}      //音量-5%
+{"mode":"movie","cmd":"mute"}      //静音
+{"mode":"movie","cmd":"unmute"}    //取消静音
+{"mode":"movie","voice":80}        //音量，数值：0-100
+
+
+{"mode":"movie","cmd":"forward"}     //快进
+{"mode":"movie","cmd":"backward"}    //快退
+{"mode":"movie","content":80}        //影片进度，数值：0-100
+
+
+3.图片控制
+图片文件存放在picture文件夹下
+
+{"mode":"picture","cmd":"autostart",time:"3000"}   //开始自动播放图片,time为间隔时间，单位ms
+{"mode":"picture","cmd":"autostop"}                //停止自动播放图片
+{"mode":"picture","cmd":"next"}
+{"mode":"picture","cmd":"prev"}
+{"mode":"picture","cmd":"first"}                   //第一张
+{"mode":"picture","cmd":"last"}                    //最后一张
+{"mode":"picture","cmd":"03.jpg"}                  //指定播放某张图片
+{"mode":"picture","cmd":"地图.png"}                //指定播放某张图片
+{"mode":"picture","cmd":"http//www.baudi.com/地图.png"}                //指定播放某张网络图片
+
+
+4.网页控制
+
+{"mode":"web","cmd":"http://www.baidu.com"}        //打开指定网页
+{"mode":"web","cmd":"next"}                        //向前
+{"mode":"web","cmd":"prev"}                        //向后
+{"mode":"web","cmd":"refresh"}                     //手动刷新网页
+
+
+5.PPT控制
+ppt文件存放在PPT文件夹下
+{"mode":"ppt","cmd":"中远浩华.ppt"}        //打开指定PPT
+{"mode":"ppt","cmd":"play"}                //播放PPT
+{"mode":"ppt","cmd":"stop"}                //停止播放PPT
+{"mode":"ppt","cmd":"autostart"}           //开始自动播放PPT
+{"mode":"ppt","cmd":"autostop"}            //停止自动播放PPT
+{"mode":"ppt","cmd":"next"}                //向前一页
+{"mode":"ppt","cmd":"prev"}                 //向后一页
+
+6.节目功能
+   1）可以通过软件界面，编排节目，一个节目可以包括单个或者多个视频、图片、PPT、网页等。
+   2）每个节目可以独立命名。
+   
+{"mode":"show","cmd":"国庆庆祝"}            //播放“国庆庆祝”节目
+{"mode":"show","cmd":"play"}                //继续节目播放
+{"mode":"show","cmd":"stop"}                //停止节目播放
+
+
+
+
